@@ -10,6 +10,7 @@
     "installable": True,
     "depends": [
         "stock",
+        "stock_barcode",
     ],
     "data": [
 
