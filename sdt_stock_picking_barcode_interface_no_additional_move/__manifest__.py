@@ -10,10 +10,11 @@
     "installable": True,
     "depends": [
         "stock",
+        "web",
         "stock_barcode",
     ],
     "data": [
-
+        'views/stock_barcode_templates.xml',
     ],
     "demo": [
 
