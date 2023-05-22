@@ -14,10 +14,8 @@
         "stock_barcode",
     ],
     "data": [
-        'views/stock_barcode_templates.xml',
+        "views/stock_barcode_templates.xml",
     ],
-    "demo": [
-
-    ],
+    "demo": [],
     "images": [],
 }
