@@ -32,6 +32,9 @@ install:
     - git clone --depth=1 https://github.com/open-synergy/ssi-maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
     - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
     - travis_install_nightly
+    - git clone -b 14.0 --depth=1
+      https://${CI_USER_TOKEN}:x-oauth-basic@github.com/open-synergy/oe.git
+      ${HOME}/dependencies/oe
 
 script:
   - travis_run_tests
