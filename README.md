@@ -14,7 +14,11 @@ odoo-sdt
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[sdt_stock_picking_barcode_interface_no_additional_move](sdt_stock_picking_barcode_interface_no_additional_move/) | 14.0.1.0.0 |  | Stock Picking Barcode Interface No Additional Move
 
 [//]: # (end addons)
 
